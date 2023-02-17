@@ -40,7 +40,7 @@ const Home = () => {
         setLoading(true)
 
         try {
-            const response = await fetch('https://api.render.com/deploy/srv-cfnd244gqg415e1t16fg?key=FZc2nMWQb9Q/api/v1/post', {
+            const response = await fetch('https://dallecloneapp.onrender.com/api/v1/post', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'

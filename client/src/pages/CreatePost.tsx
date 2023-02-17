@@ -28,7 +28,7 @@ const CreatePost = () => {
             try {
                 setGeneratingImage(true)
                 
-                const response = await fetch('https://api.render.com/deploy/srv-cfnd244gqg415e1t16fg?key=FZc2nMWQb9Q/api/v1/dalle', {
+                const response = await fetch('https://dallecloneapp.onrender.com/api/v1/dalle', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -64,7 +64,7 @@ const CreatePost = () => {
             try {
                 setGeneratingImage(true)
                 
-                const response = await fetch('https://api.render.com/deploy/srv-cfnd244gqg415e1t16fg?key=FZc2nMWQb9Q/api/v1/post', {
+                const response = await fetch('https://dallecloneapp.onrender.com/api/v1/post', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
